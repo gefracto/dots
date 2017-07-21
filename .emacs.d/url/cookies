@@ -1,0 +1,16 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("www.linux.org.ru"
+  [url-cookie "CSRF_TOKEN" "x3KunDf00HFv5J5vcAm6Ug==" "01-Aug-2019 21:04:20.00 GMT" "/" "www.linux.org.ru" nil]
+  [url-cookie "Version" "1" "01-Aug-2019 21:04:20.00 GMT" "/" "www.linux.org.ru" nil]
+  [url-cookie "Max-Age" "64281600" "01-Aug-2019 21:04:20.00 GMT" "/" "www.linux.org.ru" nil]))
+)
+(setq url-cookie-secure-storage
+ 'nil)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
