@@ -1,0 +1,4 @@
+gocode status
+go gocode status
+go gocode
+go run gocode
