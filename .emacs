@@ -1,6 +1,11 @@
 (global-set-key [f8] 'neotree-toggle)
+<<<<<<< HEAD
 ;;(setq neo-theme (if (display-graphic-p) 'icons))
 (menu-bar-mode -1)
+=======
+(setq neo-theme (if (display-graphic-p) 'arrows))
+
+>>>>>>> 0976965e9a261c0378ef9e3c44488ad81f238060
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
 
@@ -126,7 +131,11 @@
  '(cua-normal-cursor-color "#657b83")
  '(cua-overwrite-cursor-color "#b58900")
  '(cua-read-only-cursor-color "#859900")
+<<<<<<< HEAD
  '(custom-enabled-themes (quote (zonokai-blue)))
+=======
+ '(custom-enabled-themes (quote (monokai)))
+>>>>>>> 0976965e9a261c0378ef9e3c44488ad81f238060
  '(custom-safe-themes
    (quote
     ("66132890ee1f884b4f8e901f0c61c5ed078809626a547dbefbb201f900d03fd8" "3632cf223c62cb7da121be0ed641a2243f7ec0130178722554e613c9ab3131de" "f04122bbc305a202967fa1838e20ff741455307c2ae80a26035fbf5d637e325f" "77515a438dc348e9d32310c070bfdddc5605efc83671a159b223e89044e4c4f1" "1f126eb4a1e5d6b96b3faf494c8c490f1d1e5ad4fc5a1ce120034fe140e77b88" "4c8372c68b3eab14516b6ab8233de2f9e0ecac01aaa859e547f902d27310c0c3" "2d5c40e709543f156d3dee750cd9ac580a20a371f1b1e1e3ecbef2b895cf0cd2" "0ca71d3462db28ebdef0529995c2d0fdb90650c8e31631e92b9f02bd1bfc5f36" "780c67d3b58b524aa485a146ad9e837051918b722fd32fd1b7e50ec36d413e70" "78559045fb299f3542c232166ad635c59cf0c6578d80a58b885deafe98a36c66" "392f19e7788de27faf128a6f56325123c47205f477da227baf6a6a918f73b5dc" "7bd626fcc9fbfb44186cf3f08b8055d5a15e748d5338e47f9391d459586e20db" "be5b03913a1aaa3709d731e1fcfd4f162db6ca512df9196c8d4693538fa50b86" "aaf783d4bfae32af3e87102c456fba8a85b79f6e586f9911795ea79055dee3bf" "72c530c9c8f3561b5ab3bf5cda948cd917de23f48d9825b7a781fe1c0d737f2f" "a621dd9749f2651e357a61f8d8d2d16fb6cacde3b3784d02151952e1b9781f05" "b5cff93c3c6ed12d09ce827231b0f5d4925cfda018c9dcf93a2517ce3739e7f1" "c74e83f8aa4c78a121b52146eadb792c9facc5b1f02c917e3dbb454fca931223" "84d2f9eeb3f82d619ca4bfffe5f157282f4779732f48a5ac1484d94d5ff5b279" "b9e9ba5aeedcc5ba8be99f1cc9301f6679912910ff92fdf7980929c2fc83ab4d" "3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" "a8245b7cc985a0610d71f9852e9f2767ad1b852c2bdea6f4aadc12cce9c4d6d0" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" "44eec3c3e6e673c0d41b523a67b64c43b6e38f8879a7969f306604dcf908832c" "37e870e54956463b7e31eff5bfdcd595164b76f2f1911b60c3eedaf8ed0f545b" "3d5307e5d6eb221ce17b0c952aa4cf65dbb3fa4a360e12a71e03aab78e0176c5" "55ed02951e7b458e4cd18837eefa1956884c9afd22bb514f697fd1d2d1abb3d3" "a49760e39bd7d7876c94ee4bf483760e064002830a63e24c2842a536c6a52756" default)))
@@ -277,7 +286,11 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+<<<<<<< HEAD
  '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 120 :width normal)))))
+=======
+ '(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :slant normal :weight normal :height 97 :width normal)))))
+>>>>>>> 0976965e9a261c0378ef9e3c44488ad81f238060
 
 (load-file "/home/rey/.emacs.d/company-go.el")
 
